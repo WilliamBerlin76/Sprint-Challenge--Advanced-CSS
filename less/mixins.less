@@ -4,9 +4,14 @@
     justify-content: space-between;
     align-items: center;
 }
+.button-flex(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .a-tags(){
     text-decoration: none;
-    color: black;
+    color: @nav-font;
 }
 
 .button-styles(@width, @height){
@@ -15,8 +20,7 @@
         border: 1px solid white;
         color: @btn-bg-color;
     }
-    display: flex;
-    justify-content: center;
+    .button-flex();
     width: @width;
     height: @height;
     background: @btn-bg-color;
