@@ -1,1 +1,28 @@
 // Navigation code here
+nav{
+    display:flex;
+    flex-direction: column;
+    background-color: @nav-bg;
+    border-bottom: 1px solid @nav-border;
+    h1{
+        font-size: 4rem;
+        margin: 10px auto;
+    }
+    p{
+       .flex();
+       margin: 7px 40%;
+       @media screen and (max-width: 1470px){
+           margin: 7px 25%;
+       }
+       @media screen and (max-width: 900px){
+        margin: 7px 12%;
+    }
+       @media @phone{
+           margin: 7px 10%;
+       }
+       a{
+           .a-tags();
+       }
+       
+    }
+}
