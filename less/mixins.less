@@ -8,3 +8,20 @@
     text-decoration: none;
     color: black;
 }
+
+.button-styles(@width, @height){
+    &:hover{
+        background: white;
+        border: 1px solid white;
+        color: @btn-bg-color;
+    }
+    display: flex;
+    justify-content: center;
+    width: @width;
+    height: @height;
+    background: @btn-bg-color;
+    color: white;
+    border: 1px solid @btn-bg-color;
+    border-radius: 5px;
+    font-size: 1.6rem;
+}
