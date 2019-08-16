@@ -174,7 +174,17 @@ nav p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 7px 33%;
+  margin: 7px 40%;
+}
+@media screen and (max-width: 1470px) {
+  nav p {
+    margin: 7px 25%;
+  }
+}
+@media screen and (max-width: 900px) {
+  nav p {
+    margin: 7px 12%;
+  }
 }
 @media (max-width: 500px) {
   nav p {
